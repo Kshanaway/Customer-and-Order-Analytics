@@ -1,0 +1,4 @@
+SELECT SUM (quantity), price, product
+from BIT_DB.JanSales
+GROUP BY product, price 
+
